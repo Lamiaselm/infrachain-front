@@ -1,0 +1,44 @@
+<Row gutter={16}>
+  <Col span={8}>
+    <Card>
+      <Statistic
+        title="Tax"
+        value={20.1}
+        precision={2}
+        valueStyle={{
+          color: "#faa005",
+        }}
+        prefix={<StockOutlined />}
+        suffix="%"
+      />
+    </Card>
+  </Col>
+  <Col span={8}>
+    <Card>
+      <Statistic
+        title="Purchase"
+        value={11.28}
+        precision={2}
+        valueStyle={{
+          color: "#3f8600",
+        }}
+        prefix={<ArrowUpOutlined />}
+        suffix="%"
+      />
+    </Card>
+  </Col>
+  <Col span={8}>
+    <Card>
+      <Statistic
+        title="Sale"
+        value={9.3}
+        precision={2}
+        valueStyle={{
+          color: "#cf1322",
+        }}
+        prefix={<ArrowDownOutlined />}
+        suffix="%"
+      />
+    </Card>
+  </Col>
+</Row>;
